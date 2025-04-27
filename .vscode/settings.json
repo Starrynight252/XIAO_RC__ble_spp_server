@@ -1,0 +1,52 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.espIdfPathWin": "D:\\ESP32IDF\\esp\\V5.0.4\\v5.0.4\\esp-idf",
+    "idf.toolsPathWin": "D:\\ESP32IDF\\.espressif",
+    "idf.pythonInstallPath": "D:\\ESP32IDF\\.espressif\\tools\\idf-python\\3.11.2\\python.exe",
+    "idf.portWin": "COM11",
+    "idf.customExtraVars": {
+        "IDF_TARGET": "esp32c2"
+    },
+    "idf.openOcdConfigs": [
+        "board/esp32c2-ftdi.cfg"
+    ],
+    "idf.flashType": "UART",
+    "files.associations": {
+        "nvs_flash.h": "c",
+        "esp_bt_device.h": "c",
+        "ble_spp_server_demo.h": "c",
+        "gpio.h": "c",
+        "esp_bt_defs.h": "c",
+        "freertos.h": "c",
+        "string.h": "c",
+        "esp_log.h": "c",
+        "esp_rom_sys.h": "c",
+        "esp_system.h": "c",
+        "adc.h": "c",
+        "rmt.h": "c",
+        "random": "cpp",
+        "stdint.h": "c",
+        "cstdint": "c",
+        "portmacro.h": "c",
+        "ws2812.h": "c",
+        "cstddef": "c",
+        "mode.h": "c",
+        "esp_bt_main.h": "c",
+        "workingmode.h": "c",
+        "gpio_driver.h": "c",
+        "nvs_storage.h": "c",
+        "nvs.h": "c",
+        "esp_sleep.h": "c",
+        "task.h": "c",
+        "esp_gatt_defs.h": "c",
+        "esp_bt.h": "c",
+        "stdio.h": "c",
+        "array": "c",
+        "bitset": "c",
+        "string_view": "c",
+        "initializer_list": "c",
+        "regex": "c",
+        "utility": "c",
+        "esp_err.h": "c"
+    }
+}
