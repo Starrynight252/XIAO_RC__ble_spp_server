@@ -1,5 +1,5 @@
-#ifndef SPP_CLIENT_DEMO_H
-#define SPP_CLIENT_DEMO_H
+#ifndef BLE_SPP_SERVER_DEMO_H
+#define BLE_SPP_SERVER_DEMO_H
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -14,14 +14,11 @@
 
 
 /* 函数声明 */
-// 初始化 BLE
-esp_err_t ble_client_init(void);
+// 初始化 BLE 服务器
+esp_err_t ble_server_init(void);
 
-//检查蓝牙是否准备好进行读写操作
-bool ble_is_ready_for_read_write();
 // 获取 BLE 是否已连接
 bool ble_is_connected(void);
-
 // 获取 BLE 的 MAC 地址
 const uint8_t *ble_get_mac_address(void);
 // 设置本地 BLE MTU
@@ -37,13 +34,5 @@ bool ble_send_string_data(const char *message);
 */
 bool ble_send_int_array(int *array, size_t size);
 
-//设置扫描时间
-void set_ble_scan_duration(uint16_t seconds);
-//再一次扫描
-void start_scan_again();
 
-// 停止扫描 并且 主动断开连接
-void ble_client_disconnect(void);
-
-
-#endif // SPP_CLIENT_DEMO_H
+#endif // BLE_SPP_SERVER_DEMO_H

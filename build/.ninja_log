@@ -2594,3 +2594,5 @@
 98	400	7672856868992045	D:/ESP32IDF/project/ble_spp_server/build/bootloader/bootloader.elf	60be7e65f13198ae
 98	400	7672856868992045	D:/ESP32IDF/project/ble_spp_server/build/bootloader/bootloader.bin	60be7e65f13198ae
 98	400	7672856868992045	D:/ESP32IDF/project/ble_spp_server/build/bootloader/bootloader.map	60be7e65f13198ae
+1	79147334	0	CMakeFiles/confserver	e354505e919415c2
+1	79147334	0	D:/ESP32IDF/project/ble_spp_server/build/CMakeFiles/confserver	e354505e919415c2
